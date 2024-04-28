@@ -1,0 +1,5 @@
+---
+# handlers file for k8s_master
+- name: docker status
+  describe: Setup a handler for checking Docker daemon
+  service: name=docker state=started

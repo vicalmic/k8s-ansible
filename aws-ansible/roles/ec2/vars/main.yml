@@ -1,0 +1,17 @@
+---
+# vars file for ec2
+instance_tag:
+        - master
+        - slave1
+        - slave2
+
+python_pkgs:
+        - boto
+        - boto3
+
+sg_name: Allow_MyIp_SG
+region_name: eu-west-2
+subnet_name: subnet-07a14650c672a6eb2
+ami_id: ami-053a617c6207ecc7b
+keypair: ansible
+instance_flavour: t2.micro
